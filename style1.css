@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #89ABE3FF;
+}
+
+div {
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.386) ;
+    border-radius: 25px;
+    margin: auto;
+    width: 400px;
+    height: 660px;
+    background-color: #FCEDDA;
+}
+
+button {
+    padding: 5px;
+}
+
+label {
+    margin-top: 15px;
+    display: inline-block;
+}
+
+/* input {
+    width: 400px;
+} */
+
+textarea {
+    width: 400px;
+}
+
+input:focus {
+    background-color: #ee4d3464;
+}
+
+textarea:focus {
+    background-color: #ee4d3464;
+}

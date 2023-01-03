@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <div>
+        <h1>Travel reservation form</h1><br>
+        <h3>* denotes mandotory</h3><br>
+        <form>
+            <label for="fname">Full name *:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="FirstName LastName"><br>
+            <label for="lname">E-mail address *:</label><br>
+            <input type="text" id="lname" name="lname" placeholder="EMAIL_ADDRESS"><br>
+            <label for="tour">Select Tour Package *:</label><br>
+            <select name="tour" id="tour">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select><br>
+            <label for="date">Arrival date *:</label><br>
+            <input type="date" id="date" name="date"><br>
+            <label for="number">Number of persons *:</label><br>
+            <input type="number" id="number" name="number" placeholder="UNKNOWN_TYPE"><br>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="1">
+            <label for="vehicle1"> Boarding</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="2">
+            <label for="vehicle2"> Fooding</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="3">
+            <label for="vehicle3"> Sight seeing</label><br>
+            <label for="number">Discount Coupon Code *:</label><br>
+            <input type="number" id="number" name="number" placeholder="UNKNOWN_TYPE"><br>
+            <br><p>Terms and condition *:</p>
+            <input type="radio" id="agree" name="fav_language" value="agree">
+            <label for="agree">I agree</label>
+            <input type="radio" id="disagree" name="fav_language" value="disagree">
+            <label for="disagree">I disagree</label><br>
+            <br><button>Complate reservation</button>
+        </form>
+    </div>
+</body>
+</html>
